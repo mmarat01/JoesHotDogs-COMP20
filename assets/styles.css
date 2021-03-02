@@ -1,0 +1,52 @@
+/* Roboto font, by Google */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+/* mini styling reset */
+* {
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ff4d4d;
+  min-width: 0;
+  min-height: 100vh;
+  line-height: 1.5;
+}
+
+.container {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 2rem 4rem 2rem 4rem;
+}
+
+@media screen and (max-width: 455px) {
+  .container {
+    padding: 2rem 2rem 2rem 2rem;
+  }
+}
+
+#title {
+  font-weight: 700;
+  font-size: 3em;
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 1.8em;
+}
+
+td {
+  border: 3px solid #000;
+  padding: 0.5rem;
+  text-align: left;
+}
