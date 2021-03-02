@@ -50,3 +50,7 @@ td {
   padding: 0.5rem;
   text-align: left;
 }
+
+.quant {
+  text-align: right;
+}
